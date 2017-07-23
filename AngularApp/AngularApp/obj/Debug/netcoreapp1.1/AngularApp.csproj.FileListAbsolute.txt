@@ -1,0 +1,9 @@
+C:\Users\Egor\Documents\Visual Studio 2017\Projects\AngularApp\AngularApp\bin\Debug\netcoreapp1.1\AngularApp.deps.json
+C:\Users\Egor\Documents\Visual Studio 2017\Projects\AngularApp\AngularApp\bin\Debug\netcoreapp1.1\AngularApp.runtimeconfig.json
+C:\Users\Egor\Documents\Visual Studio 2017\Projects\AngularApp\AngularApp\bin\Debug\netcoreapp1.1\AngularApp.runtimeconfig.dev.json
+C:\Users\Egor\Documents\Visual Studio 2017\Projects\AngularApp\AngularApp\obj\Debug\netcoreapp1.1\AngularApp.AssemblyInfo.cs
+C:\Users\Egor\Documents\Visual Studio 2017\Projects\AngularApp\AngularApp\bin\Debug\netcoreapp1.1\AngularApp.dll
+C:\Users\Egor\Documents\Visual Studio 2017\Projects\AngularApp\AngularApp\bin\Debug\netcoreapp1.1\AngularApp.pdb
+C:\Users\Egor\Documents\Visual Studio 2017\Projects\AngularApp\AngularApp\obj\Debug\netcoreapp1.1\AngularApp.dll
+C:\Users\Egor\Documents\Visual Studio 2017\Projects\AngularApp\AngularApp\obj\Debug\netcoreapp1.1\AngularApp.pdb
+C:\Users\Egor\documents\visual studio 2017\Projects\AngularApp\AngularApp\obj\Debug\netcoreapp1.1\AngularApp.csprojResolveAssemblyReference.cache
