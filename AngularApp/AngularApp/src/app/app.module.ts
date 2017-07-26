@@ -3,16 +3,20 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { ServerComponent} from './server/server.component'
+import { DetailsComponent } from './details/details.component'
+
+
 @NgModule({
    declarations: [
        AppComponent,
-       ServerComponent
+       DetailsComponent,
+      
    ],
    imports: [
       BrowserModule,
       FormsModule,
-      HttpModule
+       HttpModule
+      
    ],
    providers: [],
    bootstrap: [AppComponent]

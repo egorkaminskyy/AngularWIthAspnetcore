@@ -1,0 +1,55 @@
+﻿
+<form>
+  <h3>{{New}} App</h3>
+  <p><b>General Information</b></p>
+  <div  class="panel panel-default">
+    <div  class="panel-body">
+
+      <div  class="row">
+        <div  class="col-sm-6">
+          <div  class="form-group">
+            <label >Application Name:<font color="#ff0000">*Required</font></label>
+            <input  class="form-control ng-untouched ng-pristine ng-valid" [(ngModel)]="apiValues.appName" placeholder="Application Name" type="text" name="T1">
+          </div>
+          <div  class="form-group">
+            <label >Description:<font color="#ff0000">*Required</font><br></label>
+            <textarea  class="form-control ng-untouched ng-pristine ng-valid" [(ngModel)]="apiValues.Description" placeholder="Description" rows="6" name="S1"></textarea>
+          </div>
+          <div  class="form-group">
+            <label >App HomePage URL:<font color="#ff0000">*Required</font><br></label>
+            <input  class="form-control ng-untouched ng-pristine ng-valid" [(ngModel)]="apiValues.appURL" placeholder="URL" type="text" name="T2">
+          </div>
+          <p><b>Authentication:</b><font color="#ff0000">*Required</font></p>
+          <div class="radio c-radio">
+            <label>
+              <input name="R1" [(ngModel)]="R1" formcontrolname="radio" type="radio" value="V1" class="ng-dirty ng-valid ng-touched">
+              <span class="fa fa-circle"></span>No Authentication
+            </label>
+            <label>
+              <input name="R1" [(ngModel)]="R1" formcontrolname="radio" type="radio" value="V2" class="ng-dirty ng-valid ng-touched">
+              <span class="fa fa-circle"></span>Basic Authentication
+            </label>
+          </div>
+          <div *ngIf="R1==='V2'" >
+            <p>Authentication Field Captions:<font color="#ff0000">*Required</font><br></p>
+            <div class="form-group">
+              <label class="col-lg-2 control-label">Email</label>
+              <div class="col-lg-6" >
+                <input class="form-control" placeholder="" [(ngModel)]="apiValues.name" type="text" name="T3" size="20" value="">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-lg-2 control-label">Password</label>
+              <div class="col-lg-6">
+                <input class="form-control" placeholder="" [(ngModel)]="apiValues.pas" type="password" name="T4" size="20" value="">
+              </div>
+            </div>
+          </div>
+          <button  name="B1" class="btn btn-sm btn-default" type="button" value="Save" >Save</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</form>
+

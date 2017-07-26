@@ -12,9 +12,9 @@ namespace AngularApp
     public class ValuesController : Controller
     {
         [HttpGet]
-        public IEnumerable<string> Get()
+        public JsonResult Get()
         {
-            return new string[] { "Hello", "World","lol" };
+            return Json(new { name="Hello", pas="World" });
         }
     }
 }
